@@ -58,7 +58,7 @@ int main() {
   Mentor *m = createMentor("Kevice", 20, 3.85);
   printData(m);
   deleteMentor(m);
-
+printf("haloo ngab");
   // printData will show null values BUT might still
   // show some data due to undefined behavior (accessing illegal memory)
   // printData(m);
